@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
 #define MAX_LEN 100
-
 int main() {
     char ch;
     char st[MAX_LEN];
@@ -11,6 +10,5 @@ int main() {
     printf("%c\n", ch);
     printf("%s\n", st);
     printf("%s\n", sent);
-
     return 0;
 }
